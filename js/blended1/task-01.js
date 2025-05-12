@@ -112,3 +112,17 @@
 // const minutes = String(totalMinutes % 60).padStart(2, "0");
 
 // console.log(`${hours}:${minutes}`);
+
+// Напишіть функцію min(a, b), яка приймає 2 числа і повертає меньше з них.
+// Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
+// повертати з функції рядок - 'Not a number!'.
+
+// function min(a, b) {
+//   if (typeof a !== "number" || typeof b !== "number") {
+//     return "not a number!";
+//   }
+//   return a < b ? a : b;
+// }
+
+// const result = min(300, 200);
+// console.log(result);
